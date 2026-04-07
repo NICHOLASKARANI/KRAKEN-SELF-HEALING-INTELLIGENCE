@@ -1,0 +1,7 @@
+﻿global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'kraken-ai-brain'
+    static_configs:
+      - targets: ['ai-brain:8000']

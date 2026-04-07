@@ -1,0 +1,29 @@
+﻿services:
+  ai-brain:
+    build: ./ai-brain
+    container_name: kraken-brain
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    volumes:
+      - ./logs:/app/logs
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+
+  prometheus:
+    image: prom/prometheus:latest
+    container_name: kraken-prometheus
+    volumes:
+      - ./kubernetes/monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - "9090:9090"
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: kraken-grafana
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=kraken123
+    ports:
+      - "3000:3000"
+    depends_on:
+      - prometheus

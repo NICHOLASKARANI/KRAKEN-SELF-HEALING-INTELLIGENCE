@@ -1,0 +1,59 @@
+﻿# OBS Studio Setup for KRAKEN Live Stream
+
+## Step 1: Download OBS Studio
+https://obsproject.com/download
+
+## Step 2: Install and Open OBS
+
+## Step 3: Create Scene
+1. Click '+' under Scenes  Name it "KRAKEN Stream"
+2. Click '+' under Sources  Add "Browser Source"
+3. URL: http://localhost:8000/dashboard (or file path to index.html)
+4. Width: 1920, Height: 1080
+5. Check "Refresh browser when scene becomes active"
+
+## Step 4: Add Overlays (Optional)
+- Add "Text (GDI+)": Show viewer count
+- Add "Image": Logo or branding
+
+## Step 5: Stream to Platforms
+
+### YouTube Live:
+1. Go to YouTube Studio  Create  Go Live
+2. Copy Stream Key
+3. In OBS: Settings  Stream  Service: YouTube RTMPS
+4. Paste Stream Key
+5. Click "Start Streaming"
+
+### Twitch:
+1. Settings  Stream  Service: Twitch
+2. Connect account or paste stream key
+3. Start Streaming
+
+### LinkedIn Live (requires approval):
+1. Apply for LinkedIn Live access
+2. Use Restream.io to multi-stream
+
+## Step 6: Stream Title & Description
+Title: "KRAKEN - Live Demo of Self-Healing AI Infrastructure"
+Description: 
+Watch KRAKEN, an autonomous AI system that monitors, manages, and heals itself.
+Features:
+- 99.99% uptime guarantee
+- AI-powered decision making
+- Auto-healing in under 5 seconds
+- Real-time cost savings analytics
+
+GitHub: https://github.com/NICHOLASKARANI/KRAKEN-SELF-HEALING-INTELLIGENCE
+
+## Step 7: Schedule Stream
+Best times: 
+- Weekdays 10am-2pm EST (investor hours)
+- Stream for 2-4 hours to show stability
+
+## Chat Monitoring:
+Keep chat open to answer investor questions about:
+- Architecture decisions
+- Cost savings calculations
+- Deployment process
+- Scaling capabilities

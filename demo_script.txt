@@ -1,0 +1,114 @@
+﻿# KRAKEN Demo Video Script - For Investors
+
+## VIDEO TITLE: "KRAKEN - The Self-Healing AI That Runs Itself"
+
+### DURATION: 3-5 minutes
+
+---
+
+### SCENE 1: Opening (0:00-0:30)
+
+**VISUAL**: Dashboard with live metrics, green operational status
+
+**NARRATOR**: 
+"Meet KRAKEN - the world's first autonomous self-healing intelligence core. 
+This isn't just another monitoring tool. This is an AI that thinks, decides, and heals - all without human intervention."
+
+**TEXT OVERLAY**: "99.99% Uptime Guaranteed"
+
+---
+
+### SCENE 2: Live Demo (0:30-1:30)
+
+**VISUAL**: Show dashboard, click "Trigger AI Decision"
+
+**NARRATOR**:
+"Watch as KRAKEN's AI Brain analyzes system health in real-time. 
+Every decision is logged, every action is autonomous. 
+The AI uses LangChain and GPT-4 to understand complex system states and make intelligent decisions."
+
+**ACTION**: Click button, show AI response
+
+**TEXT OVERLAY**: "AI Decision Time: <2 seconds"
+
+---
+
+### SCENE 3: Chaos Engineering (1:30-2:30)
+
+**VISUAL**: Run chaos test, show auto-healing
+
+**NARRATOR**:
+"This is where KRAKEN becomes unstoppable. Watch what happens when I inject chaos..."
+
+**ACTION**: Click "Run Chaos Test"
+
+**NARRATOR**:
+"I just killed a service. Watch KRAKEN detect, diagnose, and heal... 
+[wait for response] 
+5 seconds. That's all it took. Users never noticed a thing."
+
+**TEXT OVERLAY**: "Auto-Healing: 5 seconds"
+
+---
+
+### SCENE 4: Cost Savings (2:30-3:30)
+
+**VISUAL**: Show savings counter increasing
+
+**NARRATOR**:
+"Every prevented outage saves money. Every AI decision prevents downtime. 
+KRAKEN calculates real-time savings from avoided failures."
+
+**ACTION**: Show savings chart
+
+**TEXT OVERLAY**: ",000+ Annual Savings"
+
+---
+
+### SCENE 5: Investment Opportunity (3:30-4:30)
+
+**VISUAL**: Show investment highlights card
+
+**NARRATOR**:
+"For investors, KRAKEN represents a new paradigm. 
+No more 24/7 ops teams. No more unexpected downtime. 
+Just pure, autonomous reliability."
+
+**TEXT OVERLAY**: 
+- "99.99% Uptime"
+- "Zero Human Intervention"
+- "Scales to Billions"
+
+---
+
+### SCENE 6: Closing (4:30-5:00)
+
+**VISUAL**: Live stream overlay with GitHub link
+
+**NARRATOR**:
+"KRAKEN is live, it's open source, and it's ready to power the future. 
+Watch it run at github.com/NICHOLASKARANI/KRAKEN-SELF-HEALING-INTELLIGENCE"
+
+**TEXT OVERLAY**: "Deploy in 5 minutes | Runs forever"
+
+---
+
+## RECORDING TIPS:
+
+1. **Screen Recording**: Use OBS Studio (free)
+2. **Resolution**: 1920x1080
+3. **Audio**: Clear microphone, enthusiastic tone
+4. **Background**: Clean desktop, only KRAKEN visible
+5. **Actions**: Click buttons slowly, explain each step
+
+## POST-PRODUCTION:
+
+1. Add background music (low volume)
+2. Add text overlays at key moments
+3. Speed up loading screens
+4. Add zoom effects on important metrics
+
+## THUMBNAIL TEXT:
+"AI That Heals Itself | KRAKEN Demo"
+" Saved | 99.99% Uptime"
+
